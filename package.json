@@ -1,0 +1,22 @@
+{
+  "name": "agco-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agco/agco-logger.git"
+  },
+  "author": "Ian Patton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agco/agco-logger/issues"
+  },
+  "homepage": "https://github.com/agco/agco-logger#readme",
+  "dependencies": {
+    "winston": "^2.2.0"
+  }
+}
