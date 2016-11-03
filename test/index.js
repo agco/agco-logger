@@ -1,6 +1,12 @@
 'use strict';
 
-const log = require('../index')({log: {level: 'debug'}});
+const log = require('../index')({
+  log: {
+    level: 'debug',
+    showLevel: false,
+    showTimestamps: true
+  }
+});
 
 log.debug('test debug message', {meta: true});
 log.info('test info message', {meta: true});
